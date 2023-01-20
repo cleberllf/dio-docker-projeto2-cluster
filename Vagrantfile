@@ -2,10 +2,10 @@
 # vi: set ft=ruby  :
 
 machines = {
-  "master" => {"memory" => "2048", "cpu" => "2", "clone" => "true", "ipA" => "11", "ipB" => "201", "image" => "ubuntu/jammy64"},
-  "node01" => {"memory" => "2048", "cpu" => "2", "clone" => "true", "ipA" => "12", "ipB" => "202", "image" => "ubuntu/jammy64"},
-  "node02" => {"memory" => "2048", "cpu" => "2", "clone" => "true", "ipA" => "13", "ipB" => "203", "image" => "ubuntu/jammy64"},
-  "node03" => {"memory" => "2048", "cpu" => "2", "clone" => "true", "ipA" => "14", "ipB" => "204", "image" => "ubuntu/jammy64"}
+  "master" => {"memory" => "1024", "cpu" => "1", "clone" => "true", "ipA" => "11", "ipB" => "201", "image" => "ubuntu/jammy64"},
+  "node01" => {"memory" => "1024", "cpu" => "1", "clone" => "true", "ipA" => "12", "ipB" => "202", "image" => "ubuntu/jammy64"},
+  "node02" => {"memory" => "1024", "cpu" => "1", "clone" => "true", "ipA" => "13", "ipB" => "203", "image" => "ubuntu/jammy64"},
+  "node03" => {"memory" => "1024", "cpu" => "1", "clone" => "true", "ipA" => "14", "ipB" => "204", "image" => "ubuntu/jammy64"}
 }
 
 Vagrant.configure("2") do |config|
