@@ -6,3 +6,4 @@ apt-get install -y -qq docker-compose
 #sudo chmod +x /usr/local/bin/docker-compose
 #sudo usermod -aG docker vagrant
 usermod -aG docker vagrant
+docker pull webdevops/php-apache:alpine-php7
